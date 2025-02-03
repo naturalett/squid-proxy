@@ -1,5 +1,5 @@
 module "ecs_with_nlb" {
-  source = "./modules/ecs_with_nlb"
+  source = "../../modules/ecs_with_nlb"
 
   name                = var.name
   account_id          = var.account_id
